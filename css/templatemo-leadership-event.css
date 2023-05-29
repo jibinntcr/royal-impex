@@ -979,7 +979,8 @@ strong {
   }
 
   .nav-tabs .nav-link {
-    width: 50%;
+    width: 100%;
+    margin-bottom: 5px;
   }
 
   .copyright-text-wrap {
