@@ -31,10 +31,35 @@ https://templatemo.com/tm-575-leadership-event
 
 -->
 
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("xG57sNGU_PJZGGbWb");
+        })();
+    </script>
+    <script type="text/javascript" defer src="js/email.js"></script>
+    <script type="text/javascript" defer src="js/btn.js"></script>
 
 
+    <style>
+        #btn-back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: none;
+            border-color: #0dcaf0;
+            border-style: solid;
+            border-width: 1px;
 
+        }
 
+        #btn-back-to-top:hover {
+
+            border-color: white;
+            border-style: solid;
+            border-width: 1px;
+        }
+    </style>
 
 
 
@@ -860,7 +885,7 @@ https://templatemo.com/tm-575-leadership-event
                 <div class="row">
 
                     <div class="col-lg-8 col-12 mx-auto">
-                        <form class="custom-form contact-form bg-white shadow-lg" action="#" method="post" role="form">
+                        <div class="custom-form contact-form bg-white shadow-lg" role="form">
                             <h2>Please Say Hi</h2>
 
                             <div class="row">
@@ -883,11 +908,11 @@ https://templatemo.com/tm-575-leadership-event
                                     <textarea class="form-control" rows="5" id="message" name="message"
                                         placeholder="Message"></textarea>
 
-                                    <button type="submit" class="form-control">Submit</button>
+                                    <button type="submit" onclick="sendMail()" class=" form-control">Submit</button>
                                 </div>
 
                             </div>
-                        </form>
+                        </div>
                     </div>
 
                 </div>
@@ -942,11 +967,17 @@ https://templatemo.com/tm-575-leadership-event
                                 target="_blank">TemplateMo</a>
                         </p>
 
-                        <a href="#section_1" class="bi-arrow-up arrow-icon custom-link"></a>
+
                     </div>
                 </div>
 
+
             </div>
+            <button href="#section_1" class="bi-arrow-up btn-floating arrow-icon custom-link"
+                id="btn-back-to-top"></button>
+            <!-- <button type="button" class="btn btn-danger  btn-lg" >
+                <i class="fas fa-arrow-up"></i>
+            </button> -->
         </div>
     </footer>
 
