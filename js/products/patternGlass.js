@@ -6,6 +6,9 @@ let imageArrayPatternGlass = [
     "../../images/products/PatternGlass/03.jpeg",
     "../../images/products/PatternGlass/04.jpeg",
     "../../images/products/PatternGlass/05.jpeg",
+    "../../images/products/PatternGlass/06.jpeg",
+    "../../images/products/PatternGlass/07.jpeg",
+    "../../images/products/PatternGlass/08.jpeg",
 ];
 
 let imageIndexPatternGlass = 0;
