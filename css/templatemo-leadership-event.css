@@ -1044,3 +1044,24 @@ strong {
     justify-content: center;
   }
 }
+
+.gradient-text {
+  background: linear-gradient(
+    to right,
+    rgba(35, 66, 103, 255),
+    rgba(14, 187, 225, 255),
+    rgba(39, 47, 83, 255)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer-logo {
+  height: 100px;
+}
+
+@media (max-width: 768px) {
+  .footer-logo {
+    height: 50px;
+  }
+}
