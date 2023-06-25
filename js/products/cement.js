@@ -1,7 +1,7 @@
 let imageAnimCement = document.getElementById("image-animate-cement");
 
 let imageArrayCement = [
-    "../../images/products/cement/01.jpg",
+    "../../images/products/cement/01.jpeg",
     "../../images/products/cement/02.jpg",
 
 
