@@ -1,10 +1,10 @@
 let imageAnimTintedGlass = document.getElementById("image-animate-tintedGlass");
 
 let imageArrayTintedGlass = [
-    "../../images/products/TintedGlass/01.jpeg",
-    "../../images/products/TintedGlass/02.jpg",
-    "../../images/products/TintedGlass/03.jpeg",
-    "../../images/products/TintedGlass/04.jpeg",
+    "../../images/products/tintedGlass/01.jpeg",
+    "../../images/products/tintedGlass/02.jpg",
+    "../../images/products/tintedGlass/03.jpeg",
+    "../../images/products/tintedGlass/04.jpeg",
 
 ];
 
