@@ -1062,6 +1062,11 @@ strong {
 
 @media (max-width: 768px) {
   .footer-logo {
-    height: 50px;
+    height: 65px;
   }
+}
+
+.text-justify {
+  text-align: justify;
+  text-justify: inter-word; /* This property enables justification */
 }
