@@ -1057,10 +1057,8 @@ strong {
 }
 
 .gradient-text1 {
-  background: linear-gradient(rgb(29, 78, 216), rgb(30, 64, 175), rgb(17, 24, 39));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   text-transform: uppercase;
+  color: #808080;
 }
 
 .footer-logo {
@@ -1077,5 +1075,3 @@ strong {
   text-align: justify;
   text-justify: inter-word; /* This property enables justification */
 }
-
-
